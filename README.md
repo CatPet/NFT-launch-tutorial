@@ -10,4 +10,5 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
+npx hardhat verify --network [chain] contract_address "constructor first parameter"
 ```
